@@ -1,1 +1,1 @@
-# ANES-Survey-Analysis
+The goal of this repository to sieve through the American National Election Studies (ANES) survey in order to reveal statistical trends and patterns using the R programming language. The data download and basic analysis is based on a github repository, "ajdamico/asdfree” (http://asdfree.com).

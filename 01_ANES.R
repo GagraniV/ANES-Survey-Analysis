@@ -86,4 +86,6 @@ for (i in year) {
 
 View(df)
 
+http://www.electionstudies.org/resources/papers/nes012492.pdf
+
 

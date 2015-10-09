@@ -11,8 +11,16 @@ nrow(x)
 head(x)
 names(x)
 
-vars.to.keep<-c('vcf0004','vcf0006','vcf0006a','vcf0004','vcf0011z','vcf0102','vcf0104','vcf0110','vcf0112','vcf0114','vcf0128','vcf0138','vcf0143','vcf0146','vcf0147','vcf0303','vcf0704','vcf0704a','vcf0705','vcf0106')
-
+vars.to.keep<-c('vcf0004','vcf0006','vcf0006a','vcf0004','vcf0011z',
+  'vcf0102','vcf0104','vcf0110','vcf0112','vcf0114','vcf0128','vcf0138',
+  'vcf0143','vcf0146','vcf0147','vcf0303','vcf0704','vcf0704a','vcf0705',
+  'vcf0106','vcf0876',	'vcf0877',	'vcf0878',	'vcf0838',	
+  'vcf0619',	'vcf0620',	'vcf0621',	'vcf0851',	'vcf0852',	'vcf0853',	
+  'vcf0854',	'vcf0839',	'vcf9131',	'vcf9132',	'vcf9133',	
+  'vcf0843',	'vcf0886',	'vcf0887',	'vcf0888',	'vcf0889',	'vcf0890',	
+  'vcf0891',	'vcf0892',	'vcf0893',	'vcf0894',	'vcf9046',	'vcf9047',
+  'vcf9048',	'vcf9049',	'vcf9050',	'vcf9013',	'vcf9014',	'vcf9015',
+  'vcf9016',	'vcf9017',	'vcf9018')
 #2: define a new data frame(ANES by selecting varibles listed in vars.to.keep)
 ANES <- x[ ,vars.to.keep]
 
